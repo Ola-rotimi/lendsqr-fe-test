@@ -1,0 +1,26 @@
+.sign-up-container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+
+    .logo-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 2.5rem;
+    }
+
+    .image-container {
+        width: 50%;
+        display: grid;
+        min-height: 100vh;
+        place-items: center;
+    }
+
+    .form-container {
+        width: 50%;
+        display: grid;
+        min-height: 100vh;
+        place-items: center;
+    }
+}

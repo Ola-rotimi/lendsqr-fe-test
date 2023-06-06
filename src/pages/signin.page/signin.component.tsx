@@ -1,8 +1,8 @@
-import "./signin.styles.scss";
 import SignIn from "../../component/login.component/login.component";
 import Image from "../../assets/pablo-sign-in 1image.svg";
 import ImageLogo from "../../assets/Unionlogo.svg";
 import TextLogo from "../../assets/lendsqrlogo.svg";
+import "./signin.styles.scss";
 
 const SignInPage = () => {
   return (
